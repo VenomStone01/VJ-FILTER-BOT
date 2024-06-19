@@ -66,7 +66,7 @@ PAYMENT_TEXT = environ.get('PAYMENT_TEXT', '<b>- ᴀᴠᴀɪʟᴀʙʟᴇ ᴘʟ�
 OWNER_USERNAME = environ.get('OWNER_USERNAME', 'IAmVenomStone') # owner username without @
 
 # Links
-GRP_LNK = environ.get('GRP_LNK', 'https://t.me/+I1Egtfa-pjNiYjU9')
+GRP_LNK = environ.get('GRP_LNK', 'https://t.me/+EBzngT3BjTtlNGE1')
 CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/VenomStoneNetwork')
 TUTORIAL = environ.get('TUTORIAL', 'https://t.me/VenomStoneMovies/2503')
 SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'VenomStoneNetwork') # Support Chat Link Without https:// or @
