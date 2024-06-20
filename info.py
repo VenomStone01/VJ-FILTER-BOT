@@ -20,7 +20,7 @@ def is_enabled(value, default):
 SESSION = environ.get('SESSION', 'Venom')
 API_ID = int(environ.get('API_ID', '23254256'))
 API_HASH = environ.get('API_HASH', '7017f41f77929f750bc71528128b2d01')
-BOT_TOKEN = environ.get('BOT_TOKEN', "7245420512:AAGXsdXlxCUm-3ONi1Um4i-qZpJNmDQv9lA")
+BOT_TOKEN = environ.get('BOT_TOKEN', "7325207523:AAHFYXuy7fAH0HBVHeulLnqbl6RZ17nx7Ms")
 
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 1800))
@@ -51,7 +51,7 @@ FILE_STORE_CHANNEL = [int(ch) for ch in (environ.get('FILE_STORE_CHANNEL', '')).
 DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in environ.get('DELETE_CHANNELS', '0').split()]
 
 # MongoDB information
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://tohono7674:hf4uA5ZXft0xspfE@cluster0.lkuaty3.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://venomulrtabot:venomulrtabot@cluster0.eklkuso.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 DATABASE_NAME = environ.get('DATABASE_NAME', "defaultdb")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
