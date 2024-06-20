@@ -66,14 +66,14 @@ PAYMENT_TEXT = environ.get('PAYMENT_TEXT', '<b>- ᴀᴠᴀɪʟᴀʙʟᴇ ᴘʟ�
 OWNER_USERNAME = environ.get('OWNER_USERNAME', 'IAmVenomStone') # owner username without @
 
 # Links
-GRP_LNK = environ.get('GRP_LNK', 'https://t.me/+EBzngT3BjTtlNGE1')
+GRP_LNK = environ.get('GRP_LNK', 'https://t.me/VenomStoneNetwork')
 CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/VenomStoneNetwork')
 TUTORIAL = environ.get('TUTORIAL', 'https://t.me/VenomStoneMovies/2503')
 SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'VenomStoneNetwork') # Support Chat Link Without https:// or @
 
 # True Or False
 AI_SPELL_CHECK = bool(environ.get('AI_SPELL_CHECK', True))
-PM_SEARCH = bool(environ.get('PM_SEARCH', False))
+PM_SEARCH = bool(environ.get('PM_SEARCH', True))
 IS_SHORTLINK = bool(environ.get('IS_SHORTLINK', False))
 MAX_BTN = is_enabled((environ.get('MAX_BTN', "True")), True)
 IS_TUTORIAL = bool(environ.get('IS_TUTORIAL', True))
