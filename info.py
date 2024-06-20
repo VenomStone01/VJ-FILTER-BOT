@@ -18,8 +18,8 @@ def is_enabled(value, default):
 
 # Bot information
 SESSION = environ.get('SESSION', 'Venom')
-API_ID = int(environ.get('API_ID', '22663326'))
-API_HASH = environ.get('API_HASH', '927e822ca6e854d8b7369c72ab9506e4')
+API_ID = int(environ.get('API_ID', '23254256'))
+API_HASH = environ.get('API_HASH', '7017f41f77929f750bc71528128b2d01')
 BOT_TOKEN = environ.get('BOT_TOKEN', "7245420512:AAGXsdXlxCUm-3ONi1Um4i-qZpJNmDQv9lA")
 
 # Bot settings
