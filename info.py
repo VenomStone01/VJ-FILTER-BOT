@@ -20,7 +20,7 @@ def is_enabled(value, default):
 SESSION = environ.get('SESSION', 'Venom')
 API_ID = int(environ.get('API_ID', '22663326'))
 API_HASH = environ.get('API_HASH', '927e822ca6e854d8b7369c72ab9506e4')
-BOT_TOKEN = environ.get('BOT_TOKEN', "7245420512:AAGXsdXlxCUm-3ONi1Um4i-qZpJNmDQv9lA")
+BOT_TOKEN = environ.get('BOT_TOKEN', "7308383842:AAH98_LbemFPzj-Hbjj2C1r73giJLnakT0s")
 
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 1800))
@@ -51,7 +51,7 @@ FILE_STORE_CHANNEL = [int(ch) for ch in (environ.get('FILE_STORE_CHANNEL', '')).
 DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in environ.get('DELETE_CHANNELS', '0').split()]
 
 # MongoDB information
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://tohono7674:hf4uA5ZXft0xspfE@cluster0.lkuaty3.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://cirebap725:xGFnAj22ZCWFL73I@cluster0.oafh0ga.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 DATABASE_NAME = environ.get('DATABASE_NAME', "defaultdb")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
@@ -66,14 +66,14 @@ PAYMENT_TEXT = environ.get('PAYMENT_TEXT', '<b>- ᴀᴠᴀɪʟᴀʙʟᴇ ᴘʟ�
 OWNER_USERNAME = environ.get('OWNER_USERNAME', 'IAmVenomStone') # owner username without @
 
 # Links
-GRP_LNK = environ.get('GRP_LNK', 'https://t.me/+EBzngT3BjTtlNGE1')
+GRP_LNK = environ.get('GRP_LNK', 'https://t.me/VenomStoneNetwork')
 CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/VenomStoneNetwork')
 TUTORIAL = environ.get('TUTORIAL', 'https://t.me/VenomStoneMovies/2503')
 SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'VenomStoneNetwork') # Support Chat Link Without https:// or @
 
 # True Or False
 AI_SPELL_CHECK = bool(environ.get('AI_SPELL_CHECK', True))
-PM_SEARCH = bool(environ.get('PM_SEARCH', False))
+PM_SEARCH = bool(environ.get('PM_SEARCH', True))
 IS_SHORTLINK = bool(environ.get('IS_SHORTLINK', False))
 MAX_BTN = is_enabled((environ.get('MAX_BTN', "True")), True)
 IS_TUTORIAL = bool(environ.get('IS_TUTORIAL', True))
@@ -92,12 +92,12 @@ USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', True))
 
 # Token Verification Info :
 VERIFY = bool(environ.get('VERIFY', True))
-VERIFY_SECOND_SHORTNER = bool(environ.get('VERIFY_SECOND_SHORTNER', False))
+VERIFY_SECOND_SHORTNER = bool(environ.get('VERIFY_SECOND_SHORTNER', True))
 VERIFY_SHORTLINK_URL = environ.get('VERIFY_SHORTLINK_URL', 'publicearn.com')
 VERIFY_SHORTLINK_API = environ.get('VERIFY_SHORTLINK_API', 'c464f482d973a7e88ba6cb7077a3afa5de229dd5')
 # if verify second shortner is True then fill below url and api
-VERIFY_SND_SHORTLINK_URL = environ.get('VERIFY_SND_SHORTLINK_URL', '')
-VERIFY_SND_SHORTLINK_API = environ.get('VERIFY_SND_SHORTLINK_API', '')
+VERIFY_SND_SHORTLINK_URL = environ.get('VERIFY_SND_SHORTLINK_URL', 'shrinkforearn.in')
+VERIFY_SND_SHORTLINK_API = environ.get('VERIFY_SND_SHORTLINK_API', '25dbf6fba0e192581176ceeb94525b20e25ee2bd')
 VERIFY_TUTORIAL = environ.get('VERIFY_TUTORIAL', 'https://t.me/VenomStoneMovies/2503')
 
 # Shortlink Info
